@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.d-flex{
+    display:flex ;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.j-between{
+    justify-content: space-between;
+}
+.j-evenly{
+    justify-content: space-evenly;
+}
+.j-center{
+    justify-content: center;
+}
+.j-start{
+    justify-content: left;
+}
+.j-end{
+    justify-content: end;
+}
+.a-center{
+    align-items: center;
+}
+.d-column{
+    flex-direction: column;
+}
+
+/* navbar */
+
+.container-navbar{
+    max-width: 100%;
+    margin: auto;
+}
+.navbar{
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.nav1{
+    text-align: left;
+}
+.nav1 img{
+    width: 250px;
+}
+.nav2{
+}
+.nav2 a{
+    padding: 20px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+.nav2 a:hover{
+    color: #f7444e;
+}
+.nav-menu{
+    padding: 10px;
+}
+
+.nav-btn{
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    position: fixed;
+    top: 30px;
+}
+
+/* banner */
+
+.container-banner{
+    max-width: 100%;
+    padding: 150px 0px;
+    margin: auto;
+    background-image: url(https://technext.github.io/famms/images/slider-bg.jpg);
+    background-size: cover;
+}
+
+.banner-btn{
+    padding: 15px 40px;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f7444e;
+    border:1px solid transparent;
+    transition-duration: 0.5s;
+}
+.banner-btn:hover{
+    color:#f7444e;
+    background-color: transparent;
+    border:1px solid #f7444e;
+}
+
+/* perks */
+
+.container-perks{
+    max-width: 100%;
+    margin: auto;
+    padding:100px 0px;
+}
+.perk{
+    padding: 50px 40px;
+    background-color: #002c3e;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.perks{
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+.p-box{
+    padding: 15px;   
+}
+
+/* banner-2 */
+
+.container-banner2{
+    max-width: 100%;
+    margin: auto;
+    padding: 150px 0px;
+    background-image: url(https://technext.github.io/famms/images/arrival-bg.png);
+    background-size: cover;
+}
+.banner{
+    padding: 0px 180px;
+}
+
+
+/* products */
+
+
+.container-products{
+    margin: auto;
+    padding: 100px 0px;  
+}
+.pd-heading{
+    max-width: 80%;
+    padding: 5px;
+    margin: auto;
+}
+.products{
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pd-box{
+    padding: 10px;  
+}
+.pd{
+    padding: 40px;
+    background-color: #f7f8f9;
+}
+.pd1{
+    padding: 5px;
+}
+.pd1 img{
+    height: 200px;
+}
+.pd2{
+
+}
+
+/* subscription */
+
+.container-sub{
+    max-width: 100%;
+    margin: auto;
+    background-color: #d4ced0;
+}
+.sub{
+    padding: 100px 10px;
+}
+
+.dtls input{
+    width: 60%;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+.sub-btn{
+    width: 40%;
+    border-radius: 30px;
+    padding: 15px 40px;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f7444e;
+    border:1px solid transparent;
+    transition-duration: 0.5s;
+}
+.sub-btn:hover{
+    color:#f7444e;
+    background-color: transparent;
+    border:1px solid #f7444e;
+}
+
+/* customer */
+
+.container-customer{
+    margin: auto;
+    padding: 100px 0px;     
+}
+.ctmr-heading{
+    max-width: 80%;
+    padding: 5px;
+    margin: auto;
+}
+.ctmr{
+    max-width: 80%;
+    margin: auto;
+    padding: 50px
+
+}
+.ctmr .w-1{
+    text-align: center;
+}
+
+.info img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* footer */
+
+.container-footer1{
+    max-width: 80%;
+    margin: auto;
+    padding: 100px 0px;
+}
+.ftr-head{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #616060;
+}
+.box-optn{
+    padding:10px 0px;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #a09e9c;
+}
+
+.letter{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #a09e9c;
+}
+.input{
+    margin: 30px 0px;
+    width: 100%;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #a09e9c;
+}
+.ftr-a img{
+    width: 200px;
+}
+.ftr-btn{
+    width: 100px;
+    height: 60px;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f7444e;
+    border:1px solid transparent;
+}
+
+.container-footer2{
+    max-width: 100%;
+    height: 150px;
+    background-color:#222222 ;
+}
+.box-ftr2{
+    text-align: center;
+    padding-top: 45px;
+    font-family: "Roboto", sans-serif;
+    color: #a09e9c;
+}
+.ftr2-icon{
+    transition-duration: 0.5s;
+}
+.ftr2-icon:hover{
+    color: #e99c2e;
+}
